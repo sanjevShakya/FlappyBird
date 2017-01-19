@@ -1,0 +1,62 @@
+
+#container {
+	margin: 0 auto;
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10000px;
+	height: 100%;
+	background: url("../images/fb-background.png") repeat-x;
+	background-color: #5ee270;
+}
+
+#scoreBoard {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 200px;
+	height: 100%;
+	font-size: 30px;
+	font-weight: 600;
+	color: #dfdfdf;
+}
+
+#gameStatus {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	width: 900px;
+	color: #dfdfdf;
+}
+
+div.obstacle {
+	width: 96px;
+	min-height: 25px;
+	background: green;
+	position: absolute;
+	margin-bottom: 20px;
+	background: url("../images/pipe.png") repeat-y;
+}
+
+div.box {
+	width: 25px;
+	height: 25px;
+	background: teal;	
+	position: absolute;
+	margin-bottom: 20px;
+}
+
+div.bird {
+	background: url("../images/bird-resized.png") no-repeat;
+	transition: top 50ms;
+	width: 50px;
+	height: 36px;
+	position: absolute;
+}
